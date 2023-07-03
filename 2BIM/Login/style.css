@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+body 
+    {
+        background: #5f7a99;
+        background: radial-gradient(circle at 3.12% 41.73%, #5f7a99 0, #82adff 25%, #3c78f2 50%, #00469e 75%, #001b53 100%);
+        margin: 0%;
+    }
+
+main
+    {
+        position: relative;
+        top: 1vh;
+        left: 1vw;
+        height: 98vh;
+        width: 98vw;
+        background-color: rgb(172, 182, 224);
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.esquerda > h1
+    {
+        color: black; 
+    }
+
+.esquerda
+    {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.esquerda > img
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+.direita
+    {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.card 
+    {
+        padding: 30px 35px;
+        background-color: rgb(94, 94, 206);
+        border-radius: 20px;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.card > h2
+	{
+		background-color: #bba3eb;
+		-webkit-text-fill-color: text;
+		margin: 0;
+		border: wheat;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+label
+	{
+		color: rgba(33, 55, 145, 0.473);
+		font-size: 30px;
+		margin-top: 30px;
+		text-align: left    ;
+	}
+	
+input
+	{
+		border-radius: 10px;
+		background-color: rgb(98, 180, 218);
+		padding: 15px;
+	}
+
+button
+    {
+    	border-radius: 10px;
+		background-image: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+		padding: 10px;
+		margin: 10px;
+		width: 25vh;
+		font-family: 'Amatic SC', cursive;
+		font-size: 20px;
+		margin-top: 30px;
+		padding: 15px;
+    }
+
+@media only screen and (max-width: 600px) 
+    {
+        .esquerda > h1{
+            display: none;
+        }
+    
+        main{
+            flex-direction: column;
+        }
+
+		.card{
+			width: 100%;
+		}
+    }
