@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+</head>
+<body>
+    <p name="p"></p>
+    <script>
+
+        var nome = prompt('Digite seu nome:');
+        var idade = prompt('Digite sua idade:');
+
+        var centralizar = document.getElementsByName("p")[0];
+
+        centralizar.style.textAlign = "center";
+        centralizar.style.color = "blue";
+        centralizar.style.fontSize = "35px";
+
+        centralizar.style.justifyContent = "center";
+
+        centralizar.innerText = `Seu nome é ${nome} e você tem ${idade} anos.`;
+    </script>
+</body>
+</html>
