@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            background-color: #fbf1f6;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #decdf5;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #14012b;
+            text-align: center;
+        }
+
+        .question {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .option {
+            margin: 5px 0;
+        }
+
+        .submit-button {
+            background-color: #63bca1;
+            color: #000000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 19px;
+            cursor: pointer;
+        }
+
+        .tag {
+            display: none;
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .correct {
+            background-color: #2ecc71;
+            color: #ffffff;
+        }
+
+        .incorrect {
+            background-color: #e74c3c;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Friends</h1>
+
+        <div class="question">
+            <p>Pergunta 1: Com quem Mônica se casa?</p>
+            <div class="options">
+                <label class="option"><input type="radio" name="q1" value="quiz">Joey</label>
+                <label class="option"><input type="radio" name="q1" value="python">Chandler</label>
+                <label class="option"><input type="radio" name="q1" value="python">Ross</label>
+                <label class="option"><input type="radio" name="q1" value="python">David</label>
+            </div>
+            <button class="submit-button">Enviar</button>
+            <span class="tag correct">Correto!</span>
+            <span class="tag incorrect">Incorreto.</span>
+        </div>
+
+        <div class="question">
+            <p>Pergunta 2: Quantos eps tem em cada temporada?</p>
+            <div class="options">
+                <label class="option"><input type="radio" name="q2" value="5">10</label>
+                <label class="option"><input type="radio" name="q2" value="10">23</label>
+                <label class="option"><input type="radio" name="q2" value="10">24</label>
+                <label class="option"><input type="radio" name="q2" value="10">48</label>
+            </div>
+            <button class="submit-button">Enviar</button>
+            <span class="tag correct">Correto!</span>
+            <span class="tag incorrect">Incorreto.</span>
+        </div>
+
+        <div class="question">
+            <p>Pergunta 3: Quantas mulheres e/ou homens tem na série? (Principal)</p>
+            <div class="options">
+                <label class="option"><input type="radio" name="q2" value="5">7</label>
+                <label class="option"><input type="radio" name="q2" value="10">3</label>
+                <label class="option"><input type="radio" name="q2" value="10">2</label>
+                <label class="option"><input type="radio" name="q2" value="10">12</label>
+            </div>
+            <button class="submit-button">Enviar</button>
+            <span class="tag correct">Correto!</span>
+            <span class="tag incorrect">Incorreto.</span>
+        </div>
+
+        <div class="question">
+            <p>Pergunta 4: Quantos filhos Rachel teve?</p>
+            <div class="options">
+                <label class="option"><input type="radio" name="q2" value="5">0</label>
+                <label class="option"><input type="radio" name="q2" value="10">2</label>
+                <label class="option"><input type="radio" name="q2" value="10">4</label>
+                <label class="option"><input type="radio" name="q2" value="10">1</label>
+            </div>
+            <button class="submit-button">Enviar</button>
+            <span class="tag correct">Correto!</span>
+            <span class="tag incorrect">Incorreto.</span>
+        </div>
+
+        <div class="question">
+            <p>Pergunta 5: Em que ano a série teve sua estreia? </p>
+            <div class="options">
+                <label class="option"><input type="radio" name="q2" value="5">1999</label>
+                <label class="option"><input type="radio" name="q2" value="10">2005</label>
+                <label class="option"><input type="radio" name="q2" value="10">2000</label>
+                <label class="option"><input type="radio" name="q2" value="10">1994</label>
+            </div>
+            <button class="submit-button">Enviar</button>
+            <span class="tag correct">Correto!</span>
+            <span class="tag incorrect">Incorreto.</span>
+        </div>
+        <!-- Repita o mesmo padrão para as próximas questões -->
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
