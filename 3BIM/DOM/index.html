@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="comeco">
+        <a href="#">Home</a>
+        <a href="#">Outros artistas</a>
+        <a href="#">Músicas:2000</a>
+        <a href="#">Todos tipos de artistas</a>
+    </header>
+    <main>
+        <h1 id="inicio">Discos musicais!</h1>
+        <section>
+            <table>
+                <thead name="tab">
+                    <tr>
+                        <th>Música</th>
+                        <th>Artista</th>
+                        <th>Views</th>
+                        <th>Ano de lançamento</th>
+                        <th>Top30 no Spotify</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Solteiro forçado</td>
+                        <td>Ana Castela</td>
+                        <td>77 milhões</td>
+                        <td>2023</td>
+                        <td>3º lugar</td>
+                    </tr>
+                    <tr>
+                        <td>Barulho do foguete</td>
+                        <td>Zé Neto & Cristiano</td>
+                        <td>49 milhões</td>
+                        <td>2023</td>
+                        <td>41º lugar</td>
+                    </tr>
+                    <tr>
+                        <td>Campo de morango</td>
+                        <td>Luísa Sonza</td>
+                        <td>13 milhões</td>
+                        <td>2023</td>
+                        <td>20º lugar</td>
+                    </tr>
+                    <tr>
+                        <td>Tengo</td>
+                        <td>Juliette</td>
+                        <td>1,1 milhão</td>
+                        <td>2023</td>
+                        <td>25º lugar</td>
+                    </tr>
+                    <tr>
+                        <td>Cruel Summer</td>
+                        <td>Taylor Swift</td>
+                        <td>105 milhões</td>
+                        <td>2019</td>
+                        <td>7º lugar</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="final">
+            <a href="#" name="link">Sugestões</a>
+            <a href="#" name="link">Contato</a>
+            <a href="#" name="link">Nossas redes</a>
+            <a href="#" name="link">Melhorias</a>
+            <a href="#" name="link">Veja mais</a>
+            <h4>Dês de 2023 com você!</h4>
+    </footer>
+
+    <script>
+        document.getElementsByClassName("comeco")[0].style.justifyContent = "left"
+
+        document.getElementById("inicio").style.display = "flex"
+        document.getElementById("inicio").style.justifyContent = "left"
+
+        document.getElementById("inicioSub").style.display = "flex"
+        document.getElementById("inicioSub").style.justifyContent = "left"
+        
+        document.getElementsByName("tab")[0].style.fontSize = "18px"
+        document.getElementsByName("tab")[0].style.padding = "10px"
+        
+        document.getElementsByClassName("final")[0].style.paddingTop = "20px"
+
+        document.getElementsByTagName("h4")[0].style.fontSize = "12px"
+    </script>
+</body>
+</html>
